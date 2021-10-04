@@ -30,12 +30,31 @@
             <label for="cep"><b>Numero CEP:</b></label>
             <input type="text" name="cep" id="cep" maxlength="8">
           </fieldset>
-            <button type="submit" class="button">Buscar</button>
+            <div class="botao">
+            <button class="btn btn-primary" class="button">Buscar</button>
+            </div>
             <a href="rua.html">Não sabe o seu CEP?</a>
           </div>
       </form>
 
-      <form class="formulario2">
+    <div class="container-resultado">
+          <h3>Resultado da Pesquisa</h3>
+      <div class="row g-3">
+       <div class="col-sm">
+         <input type="text" class="form-control" placeholder="Cidade" aria-label="Cidade" name="cidade" id="cidade">
+       </div>
+       <div class="col-sm">
+         <input type="text" class="form-control" placeholder="Logradouro" aria-label="Logradouro" name="rua" id="rua">
+       </div>
+       <div class="col-sm">
+        <input type="text" class="form-control" placeholder="Bairro" aria-label="Bairro" name="bairro" id="bairro">
+       </div>
+      </div>
+    </div>
+
+
+     <!--  Formulario Backup
+     <form class="formulario2">
         <div class="container-resultado">
           <h3>Resultado da Pesquisa</h3>
          <fieldset>
@@ -54,8 +73,17 @@
           </fieldset>
         </div>
       </form>
+       -->
+
+
 
   <script src="func.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
   
   
   </body>

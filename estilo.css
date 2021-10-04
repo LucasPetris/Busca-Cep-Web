@@ -81,6 +81,7 @@ ul {
 
 .container-busca a {
 	text-decoration: none;
+	float: left;
 }
 
 .container-resultado h3 {
@@ -106,9 +107,8 @@ ul {
 	text-align: center;
 }
 
-.button {
-	margin-top: 10px;
-	width: 65px;
+.botao {
+	margin-top: 8px;
 }
 
 .titulo {
