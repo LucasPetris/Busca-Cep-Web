@@ -121,3 +121,10 @@ ul {
 .navegacao {
 	background: #FF8C00;
 }
+
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	background: #FF7F50;
+	color: #fff;
+}
