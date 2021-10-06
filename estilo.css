@@ -123,8 +123,8 @@ ul {
 }
 
 #rodape {
-	width: 750px;
-	margin: 0 auto;
+	width: 100%;
 	background: #FF7F50;
+	text-align: center;
 	color: #fff;
 }
